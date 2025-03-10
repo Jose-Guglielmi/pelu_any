@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Modal } from "./Modal";
 import { TipsSeccion } from "./TipsSeccion";
 
-export const Main = () => {
+export const Main1 = () => {
   const [onOpen, setOnOpen] = useState(false);
   const [onSelectImg, setOnSelectedImg] = useState({});
 
