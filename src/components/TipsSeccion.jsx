@@ -40,7 +40,7 @@ export const TipsSeccion = () => {
         Consejos profesionales para mantener tu cabello saludable
       </p>
       {tips.map((tip) => (
-        <div className="rounded-lg p-5 flex flex-col items-center border border-[#D4AF37] m-2">
+        <div className="rounded-lg p-5 flex flex-col items-center border border-[#D4AF37] m-2 w-[92%]">
           <div className="flex flex-row items-center mb-3">
             <Heart color="#D4AF37" size={20} />
             <h1 className="text-[#722F37] text-2xl font-bold pl-2">
